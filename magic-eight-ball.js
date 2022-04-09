@@ -17,6 +17,7 @@ let randomNumber = Math.floor(Math.random() * 8);
 
 let eightBall = '';
 
+//the random number chosen is assigned an eightball output string
 switch (randomNumber) {
     case 0:
         eightBall = 'Some things you just have to find out yourself';
@@ -44,4 +45,5 @@ switch (randomNumber) {
         break;
 }
 
+//the final answer is shown
 console.log(`The magic eightBall says, "${eightBall}!"`);
